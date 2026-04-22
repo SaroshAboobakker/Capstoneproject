@@ -19,6 +19,13 @@ function displayProducts(productArray) {
 
     productArray.forEach(product => {
         list.innerHTML += `
+    <div class="product">
+        <h3>${product.name}</h3>
+        <p><strong>$${product.price}</strong></p>
+        <p>${product.eco}</p>
+        <button onclick="addToCart(${product.id})">Add to Cart</button>
+    </div>
+`;
             <div class="product">
                 <h3>${product.name}</h3>
                 <p>Price: $${product.price}</p>
