@@ -115,3 +115,32 @@ section p {
     margin: auto;
     font-size: 18px;
 }
+
+.featured-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.featured-product {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.featured-product:hover {
+    transform: scale(1.05);
+}
+
+.featured-product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
