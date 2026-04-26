@@ -63,6 +63,7 @@ function displayCart() {
         total += item.price;
         cartDiv.innerHTML += `
             <div class="product">
+                <img src="${item.image}" alt="${item.name}" style="width:100%; height:150px; object-fit:cover; border-radius:8px;">
                 <h3>${item.name}</h3>
                 <p>$${item.price}</p>
             </div>
@@ -73,9 +74,7 @@ function displayCart() {
 
 // CHECKOUT FUNCTION
 function checkout() {
-    alert("Payment Successful! Thank you for your purchase.");
-    localStorage.removeItem("cart");
-    location.reload();
+    window.location.href = "checkout.html";
 }
 
 // LOAD CART WHEN PAGE OPENS
