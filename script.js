@@ -79,3 +79,10 @@ function checkout() {
 
 // LOAD CART WHEN PAGE OPENS
 displayCart();
+
+// PLACE ORDER FUNCTION
+function placeOrder() {
+    alert("Payment Successful! Thank you for your purchase.");
+    localStorage.removeItem("cart");
+    window.location.href = "index.html";
+}
