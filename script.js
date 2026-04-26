@@ -17,6 +17,8 @@ function displayProducts(productArray) {
     const list = document.getElementById("product-list");
     if (!list) return;
     list.innerHTML = "";
+    productArray.forEach(product => {
+        list.innerHTML += `
             <div class="product">
                 <img src="${product.image}" alt="${product.name}" style="width:100%; height:150px; object-fit:cover; border-radius:8px;">
                 <h3>${product.name}</h3>
