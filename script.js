@@ -8,7 +8,7 @@ const products = [
     { id: 6, name: "Eco Notebook", price: 12, eco: "Made from recycled paper", image: "https://www.allbranded.com/out/shop-us/pictures/generated/product/2/480_480_80/SM-3468GR_B_FR_3110.jpg?w=300&h=200&fit=crop" },
     { id: 7, name: "Compost Bin", price: 30, eco: "Helps reduce food waste", image: "https://m.media-amazon.com/images/I/61u+ISz7RsL.jpg?w=300&h=200&fit=crop" },
     { id: 8, name: "LED Light Bulbs", price: 20, eco: "Energy efficient", image: "https://m.media-amazon.com/images/I/61htYg6TZiL.jpg?w=300&h=200&fit=crop" },
-    { id: 9, name: "Reusable Food Wrap", price: 14, eco: "Alternative to plastic wrap", image: "https://i.kickstarter.com/assets/024/062/324/7a77da1777b78e8ae6d90cb1ff354425_original.jpg?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1549934999&width=1552&sig=zV76TvQRV1qeAAFsZ3tUSoKXIduAi4uyH0xXUq%2FzxRw%3D?w=300&h=200&fit=crop" },
+    { id: 9, name: "Reusable Food Wrap", price: 14, eco: "Alternative to plastic wrap", image: "https://www.amesfarm.com/cdn/shop/articles/everything-you-need-to-know-about-beeswax-wraps-999251.jpg?v=1740106510&width=480?w=300&h=200&fit=crop" },
     { id: 10, name: "Eco Laundry Detergent", price: 18, eco: "Non-toxic ingredients", image: "https://legacy.earthbreeze.com/cdn/shop/files/FSV212PACKENF_1_b3d3ff0a-00fb-410a-9bbe-365a8efde828_1024x1024.png?v=1709850171?w=300&h=200&fit=crop" }
 ];
 
